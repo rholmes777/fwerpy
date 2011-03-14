@@ -1,14 +1,14 @@
 //
-//  MyDocument.m
+//  FwerpDocument.m
 //  fwerpy
 //
 //  Created by Richard Holmes on 3/11/11.
 //  Copyright Richard A. Holmes 2011 . All rights reserved.
 //
 
-#import "MyDocument.h"
+#import "FwerpDocument.h"
 
-@implementation MyDocument
+@implementation FwerpDocument
 
 - (id)init 
 {
@@ -21,7 +21,7 @@
 
 - (NSString *)windowNibName 
 {
-    return @"MyDocument";
+    return @"FwerpDocument";
 }
 
 - (void)windowControllerDidLoadNib:(NSWindowController *)windowController 

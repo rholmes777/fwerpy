@@ -1,5 +1,5 @@
 //
-//  MyDocument.h
+//  FwerpDocument.h
 //  fwerpy
 //
 //  Created by Richard Holmes on 3/11/11.
@@ -8,7 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface MyDocument : NSPersistentDocument {
+@interface FwerpDocument : NSPersistentDocument {
 }
 
 @end
