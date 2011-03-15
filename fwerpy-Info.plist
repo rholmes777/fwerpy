@@ -7,70 +7,46 @@
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
-			<key>CFBundleTypeExtensions</key>
+			<key>NSExportableTypes</key>
 			<array>
-				<string>binary</string>
+				<string>public.xml</string>
 			</array>
-			<key>CFBundleTypeMIMETypes</key>
+			<key>LSHandlerRank</key>
+			<string>Alternate</string>
+			<key>LSItemContentTypes</key>
 			<array>
-				<string>application/octet-stream</string>
-			</array>
-			<key>CFBundleTypeName</key>
-			<string>Binary</string>
-			<key>CFBundleTypeRole</key>
-			<string>Editor</string>
-			<key>LSTypeIsPackage</key>
-			<false/>
-			<key>NSDocumentClass</key>
-			<string>FwerpDocument</string>
-			<key>NSPersistentStoreTypeKey</key>
-			<string>Binary</string>
-		</dict>
-		<dict>
-			<key>CFBundleTypeExtensions</key>
-			<array>
-				<string>sqlite</string>
-			</array>
-			<key>CFBundleTypeMIMETypes</key>
-			<array>
-				<string>application/octet-stream</string>
-			</array>
-			<key>CFBundleTypeName</key>
-			<string>SQLite</string>
-			<key>CFBundleTypeRole</key>
-			<string>Editor</string>
-			<key>LSTypeIsPackage</key>
-			<false/>
-			<key>NSDocumentClass</key>
-			<string>FwerpDocument</string>
-			<key>NSPersistentStoreTypeKey</key>
-			<string>SQLite</string>
-		</dict>
-		<dict>
-			<key>CFBundleTypeExtensions</key>
-			<array>
-				<string>xml</string>
+				<string>public.xml</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
 			<string></string>
-			<key>CFBundleTypeMIMETypes</key>
-			<array>
-				<string>text/xml</string>
-			</array>
 			<key>CFBundleTypeName</key>
-			<string>XML</string>
-			<key>CFBundleTypeOSTypes</key>
-			<array>
-				<string>????</string>
-			</array>
+			<string>Fwerp DB</string>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
-			<key>LSTypeIsPackage</key>
-			<false/>
 			<key>NSDocumentClass</key>
 			<string>FwerpDocument</string>
 			<key>NSPersistentStoreTypeKey</key>
 			<string>XML</string>
+		</dict>
+		<dict>
+			<key>LSHandlerRank</key>
+			<string>Alternate</string>
+			<key>NSExportableTypes</key>
+			<array>
+				<string>public.database</string>
+			</array>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>public.database</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>Fwerp DB</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>NSDocumentClass</key>
+			<string>FwerpDocument</string>
+			<key>NSPersistentStoreTypeKey</key>
+			<string>SQLite</string>
 		</dict>
 	</array>
 	<key>CFBundleExecutable</key>
@@ -80,7 +56,7 @@
 	<key>CFBundleIconFile</key>
 	<string></string>
 	<key>CFBundleIdentifier</key>
-	<string>com.yourcompany.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>com.amberlight.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundlePackageType</key>

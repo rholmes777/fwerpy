@@ -1,0 +1,12 @@
+About the info.plist entries:
+
+
+Document Types:
+---------------
+- Deleted the entries which are obsolete as of Mac Leopard OS: 
+	 CFBundleTypeExtensions; CFBundleTypeMIMETypes; CFBundleTypeOSTypes
+- LSItemContentTypes: Array of UTIs for supported file types.
+- NSExportableTypes: Array of UTIs which our application can export.
+- LSHandlerRank: For each of the LSItemContentTypes, we indicate whether we 
+  are the "Owner" of the type (therefore open it upon double click), or if it's an 
+  "Alternate" type (we handle it but don't "own" it), or we don't support it ("None").
