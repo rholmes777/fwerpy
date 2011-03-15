@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		002DF8D8132DC94500AA9F2E /* FwerpWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002DF8D7132DC94500AA9F2E /* FwerpWindowController.m */; };
 		002DF8DE132DCA5200AA9F2E /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = 002DF8DD132DCA5200AA9F2E /* Credits.html */; };
+		003381781330312300794275 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 003381761330312300794275 /* Localizable.strings */; };
 		2F7446C30DB6CCE400F9684A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F7446BF0DB6CCE400F9684A /* MainMenu.xib */; };
 		2F7446C40DB6CCE400F9684A /* FwerpDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F7446C10DB6CCE400F9684A /* FwerpDocument.xib */; };
 		514E9E12081EC6B8009B8CD9 /* GetMetadataForFile.c in Sources */ = {isa = PBXBuildFile; fileRef = 514E9E10081EC6B8009B8CD9 /* GetMetadataForFile.c */; };
@@ -53,6 +54,7 @@
 		002DF8D6132DC94500AA9F2E /* FwerpWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FwerpWindowController.h; sourceTree = "<group>"; };
 		002DF8D7132DC94500AA9F2E /* FwerpWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FwerpWindowController.m; sourceTree = "<group>"; };
 		002DF8DD132DCA5200AA9F2E /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
+		003381771330312300794275 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
 		00589D061330135D00783C3F /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
@@ -182,6 +184,7 @@
 				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
 				8D15AC360486D014006FF6A4 /* fwerpy-Info.plist */,
 				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
+				003381761330312300794275 /* Localizable.strings */,
 				514E9DFA081EBF9C009B8CD9 /* Importer-Info.plist */,
 				002DF8DD132DCA5200AA9F2E /* Credits.html */,
 			);
@@ -296,6 +299,7 @@
 				2F7446C30DB6CCE400F9684A /* MainMenu.xib in Resources */,
 				2F7446C40DB6CCE400F9684A /* FwerpDocument.xib in Resources */,
 				002DF8DE132DCA5200AA9F2E /* Credits.html in Resources */,
+				003381781330312300794275 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +337,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		003381761330312300794275 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				003381771330312300794275 /* English */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -1,0 +1,3 @@
+/* Localizable strings for Fwerpy.  Can fill in so we get strings for  our app via
+ * the NSLocalizedString() macros
+ */

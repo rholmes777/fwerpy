@@ -7,6 +7,18 @@ Document Types:
 	 CFBundleTypeExtensions; CFBundleTypeMIMETypes; CFBundleTypeOSTypes
 - LSItemContentTypes: Array of UTIs for supported file types.
 - NSExportableTypes: Array of UTIs which our application can export.
-- LSHandlerRank: For each of the LSItemContentTypes, we indicate whether we 
+- LSHandlerRank: For this document type, we indicate whether we 
   are the "Owner" of the type (therefore open it upon double click), or if it's an 
   "Alternate" type (we handle it but don't "own" it), or we don't support it ("None").
+
+Other items:
+------------
+CFBundleSignature: r@4~
+	A random but semi-readable string - - can register at developer.apple.com/datatype/
+CFBundleDisplayName: key/value with name of application.
+LSHasLocalizedDisplayName: false for now
+NSAppleScriptEnabled: false for now
+Copyright strings:
+	NSHumanReadableCopyright: Available in Snow Leopard
+	CFBundleGetInfoString (Leopard variant of NSHumanReadableCopyright)
+		© 2011 Richard A. Holmes. All Rights Reserved. 	
