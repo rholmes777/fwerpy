@@ -22,3 +22,5 @@ Copyright strings:
 	NSHumanReadableCopyright: Available in Snow Leopard
 	CFBundleGetInfoString (Leopard variant of NSHumanReadableCopyright)
 		© 2011 Richard A. Holmes. All Rights Reserved. 	
+
+NOTE: Just change the git keys a bit.  Test push.
